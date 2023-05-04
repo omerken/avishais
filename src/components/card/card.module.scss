@@ -1,0 +1,36 @@
+.root {
+}
+
+.cardTitle {
+  color: #ffffff;
+}
+.description {
+  color: #ffffff;
+  font-weight: 600;
+  font-family: Courier, monospace;
+}
+.createdBy {
+  text-align: end;
+  align-self: start;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: row;
+}
+.button {
+}
+.btn {
+  background-color: #336ed9;
+  border-radius: 100px;
+  &:focus {
+    outline: unset;
+  }
+  &:hover {
+    background-color: rgb(51, 110, 217, 0.4);
+  }
+}
